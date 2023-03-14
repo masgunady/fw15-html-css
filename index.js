@@ -1,41 +1,44 @@
 function isPalindrome(value) {
-    if (!isNaN(value)) {
-        return 'Input must be string'
-    } else if (value.length <= 2) {
-        return 'String min 3 character'
+    if (value.length <= 2) {
+        return 'Input String setidaknya terdiri dari tiga karakter'
     } else {
         for (var i = 0; i < value.length / 2; i++) {
             var indexAwal = value[i];
             var indexAkhir = value[value.length - 1 - i];
-
+            // console.log(indexAwal + ":" + indexAkhir)
             if (indexAwal !== indexAkhir) {
-                return 'Not Palindrome';
+                return 'Bukan Palindrome';
             }
+
         }
         return 'Palindrome'
     }
 }
 
-console.log(isPalindrome('aku'));
+console.log(isPalindrome('kakak'));
 
-// let kata = 'buku';
-// var msg = 'Palindrome'
-// for (var i = 0; i < kata.length / 2; i++) {
-//     var indexAwal = kata[i];
-//     var indexAkhir = kata[kata.length - 1 - i];
 
-//     // console.log(indexAwal + ":" + indexAkhir);
-//     if (indexAwal !== indexAkhir) {
-//         var msg = 'Not Palindrome'
-//     }
-// }
+function ubahHurufKonsonan(kata) {
 
-// console.log(`${kata} ${msg}`);
 
-// let kata = 'uu';
-// console.log(kata.length)
-// if (kata.length <= 2) {
-//     console.log('kurang dr 2')
-// } else {
-//     console.log('lebih')
-// }
+    if (!isNaN(kata)) {
+        return 'Input harus berupa string!'
+    } else {
+
+        const vokal = ['a', 'A'];
+        let hasil = '';
+
+        for (let i = 0; i < kata.length; i++) {
+            if (vokal.includes(kata[i])) {
+                hasil += 'o';
+            } else {
+                hasil += kata[i];
+            }
+        }
+
+        return hasil;
+    }
+
+}
+
+console.log(ubahHurufKonsonan('12344'));
