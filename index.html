@@ -4,45 +4,405 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Event Organizer</title>
+    <link rel="stylesheet" href="./assets/css/dashboard.css" />
+    <title>Detail</title>
   </head>
   <body>
-    <div class="container">
-      <div class="left-section">
-        <div class="img-container">
-          <img class="img-female" src="./assets/img/female.png" alt="" />
-          <img class="img-male" src="./assets/img/male.png" alt="" />
-          <div class="dissolve-effect"></div>
+    <nav class="navbar-container">
+      <div class="nav-logo">
+        <img src="./assets/img/icon-logo.svg" alt="iconlogo" />
+        <p>We<span>tick</span></p>
+      </div>
+      <div class="menu">
+        <ul>
+          <li>Home</li>
+          <li>Create Event</li>
+          <li>Location</li>
+        </ul>
+      </div>
+      <div class="profile-info">
+        <div class="profile-frame">
+          <img class="" src="https://i.pravatar.cc/48" alt="" />
+        </div>
+        <div class="profile-name">
+          <p><a href="./profile.html" style="color: black">john tomson</a></p>
         </div>
       </div>
-
-      <div class="right-section">
-        <div class="card-wrapper">
-          <div class="logo-container">
-            <img src="./assets/img/icon-logo.svg" alt="iconlogo" />
-            <p>We<span>tic</span></p>
+    </nav>
+    <div class="container">
+      <div class="header-container">
+        <div class="h-left">
+          <div class="h-content">
+            <p>Find events you love with our</p>
+            <div class="search-box">
+              <form action="">
+                <img src="./assets/img/search-ic.svg" alt="" />
+                <input type="text" placeholder="Search event..." />
+                <img src="./assets/img/tag-map-ic.svg" alt="" />
+                <input type="text" placeholder="Where?" />
+                <button>
+                  <img src="./assets/img/arrow-right-ic.svg" alt="" />
+                </button>
+              </form>
+            </div>
           </div>
-          <div class="title-container">
-            <p class="title-sign">Sign Up</p>
-            <p class="sub-title-sign">Already have an account ? <a href="./login.html">Log in</a></p>
+        </div>
+        <div class="h-right">
+          <div class="img-container">
+            <img class="female-img" src="./assets/img/female.png" alt="" />
+            <img class="male-img" src="./assets/img/male.png" alt="" />
+            <div class="dissolve-effect"></div>
           </div>
-          <div class="form-card">
-            <form>
-              <input type="text" placeholder="Fullname" />
-              <input type="text" placeholder="Email" />
-              <input type="password" placeholder="Password" />
-              <input type="password" placeholder="Confirm Password" />
-              <div class="container-chk" style="display: flex; gap: 15px">
-                <input type="checkbox" />
-                <p style="color: blue">Accept terms and condition</p>
+        </div>
+      </div>
+      <div class="event-container">
+        <div class="btn-event-container">
+          <button>Event</button>
+        </div>
+        <div class="title-event-container">
+          <p>Event For You</p>
+        </div>
+        <div class="event-date-container">
+          <button class="btn-left">
+            <img src="./assets/img/arrow-left-ic.svg" alt="" />
+          </button>
+          <div class="event-date">
+            <p>15</p>
+            <p>Wed</p>
+          </div>
+          <div class="event-date">
+            <p>15</p>
+            <p>Wed</p>
+          </div>
+          <div class="event-date event-date-selected">
+            <p>15</p>
+            <p>Wed</p>
+            <p>&bull;</p>
+          </div>
+          <div class="event-date">
+            <p>15</p>
+            <p>Wed</p>
+          </div>
+          <div class="event-date">
+            <p>15</p>
+            <p>Wed</p>
+          </div>
+          <button class="btn-right">
+            <img src="./assets/img/arrow-right-ic.svg" alt="" />
+          </button>
+        </div>
+        <div class="event-banner-container">
+          <div class="event-banner">
+            <img src="./assets/img/event-1.png" alt="" class="src" />
+            <div class="text">
+              <div class="date">Wed, 15 Nov, 4:00 PM</div>
+              <div class="title">Sights & Sounds Exhibition</div>
+              <div class="attendance">
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
               </div>
-
-              <button type="submit">Sign Up</button>
-            </form>
+            </div>
+            <div class="dissolve-black"></div>
+          </div>
+          <div class="event-banner">
+            <img src="./assets/img/event-2.png" alt="" class="src" />
+            <div class="text">
+              <div class="date">Wed, 15 Nov, 4:00 PM</div>
+              <div class="title">Sights & Sounds Exhibition</div>
+              <div class="attendance">
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="dissolve-black"></div>
+          </div>
+          <div class="event-banner">
+            <img src="./assets/img/event-1.png" alt="" class="src" />
+            <div class="text">
+              <div class="date">Thu, 16 Nov, 7:00 PM</div>
+              <div class="title">See it in Gold Class</div>
+              <div class="attendance">
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="dissolve-black"></div>
+          </div>
+          <div class="event-banner">
+            <img src="./assets/img/event-2.png" alt="" class="src" />
+            <div class="text">
+              <div class="date">Thu, 16 Nov, 7:00 PM</div>
+              <div class="title">See it in Gold Class</div>
+              <div class="attendance">
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="dissolve-black"></div>
+          </div>
+        </div>
+        <div class="btn-see-event">
+          <button>See All</button>
+        </div>
+      </div>
+      <div class="discover-place">
+        <div class="discover-place-container">
+          <div class="btn-discover-loc">
+            <button>LOCATION</button>
+          </div>
+          <div class="img-place-container">
+            <div class="img-loc">
+              <div class="text-desc">Discover Events Near You</div>
+              <div class="img-container">
+                <img src="./assets/img/aceh.png" alt="" />
+                <div>Aceh</div>
+              </div>
+            </div>
+            <div class="img-loc">
+              <div class="img-container">
+                <img src="./assets/img/jakarta.png" alt="" />
+                <div>Jakarta</div>
+              </div>
+              <div class="img-container">
+                <img src="./assets/img/solo.png" alt="" />
+                <div>Solo</div>
+              </div>
+            </div>
+            <div class="img-loc">
+              <div class="img-container">
+                <img src="./assets/img/bandung.png" alt="" />
+                <div>Bandung</div>
+              </div>
+              <div class="img-container">
+                <img src="./assets/img/yogyakarta.png" alt="" />
+                <div>Yogyakarta</div>
+              </div>
+            </div>
+            <div class="img-loc">
+              <div class="img-container">
+                <img src="./assets/img/bali.png" alt="" />
+                <div>Bali</div>
+              </div>
+              <div class="img-container">
+                <img src="./assets/img/semarang.png" alt="" />
+                <div>Semarang</div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-see-loc">
+            <button>See All</button>
+          </div>
+        </div>
+      </div>
+      <div class="event-category-container">
+        <div class="btn-event-category">
+          <button>Category</button>
+        </div>
+        <div class="title-event-category">Browse Event By Category</div>
+        <div class="nav-event-category">
+          <ul>
+            <li>Music</li>
+            <li>Arts</li>
+            <li>Outdoors</li>
+            <li>Workshop</li>
+            <li>Sport</li>
+            <li>Festival</li>
+            <li>Fashion</li>
+          </ul>
+        </div>
+        <div class="event-category-banner-container">
+          <button class="btn-left">
+            <img src="./assets/img/arrow-left-ic.svg" alt="" />
+          </button>
+          <div class="event-category-banner">
+            <img src="./assets/img/event-1.png" alt="" />
+            <div class="text">
+              <div class="attendance">
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+              </div>
+              <div class="date">Wed, 15 Nov, 4:00 PM</div>
+              <div class="title">Sights & Sounds Exhibition</div>
+            </div>
+            <div class="blocking-effect"></div>
+          </div>
+          <div class="event-category-banner">
+            <img src="./assets/img/event-2.png" alt="" />
+            <div class="text">
+              <div class="attendance">
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+              </div>
+              <div class="date">Wed, 15 Nov, 4:00 PM</div>
+              <div class="title">See it in Gold Class</div>
+            </div>
+            <div class="blocking-effect"></div>
+          </div>
+          <div class="event-category-banner">
+            <img src="./assets/img/event-1.png" alt="" />
+            <div class="text">
+              <div class="attendance">
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+                <div class="img-profile">
+                  <img src="https://i.pravatar.cc/28" alt="" />
+                </div>
+              </div>
+              <div class="date">Wed, 15 Nov, 4:00 PM</div>
+              <div class="title">Sights & Sounds Exhibition</div>
+            </div>
+            <div class="blocking-effect"></div>
+          </div>
+          <button class="btn-right">
+            <img src="./assets/img/arrow-right-ic.svg" alt="" />
+          </button>
+        </div>
+      </div>
+      <div class="partner-container">
+        <div class="btn-partner">
+          <button>PARTNER</button>
+        </div>
+        <div class="title-partner">Our Trusted Partners</div>
+        <div class="partner-list-title">By companies like :</div>
+        <div class="img-list-partner">
+          <div class="img-partner">
+            <img src="./assets/img/partner1.png" alt="" />
+          </div>
+          <div class="img-partner">
+            <img src="./assets/img/partner2.png" alt="" />
+          </div>
+          <div class="img-partner">
+            <img src="./assets/img/partner3.png" alt="" />
+          </div>
+          <div class="img-partner">
+            <img src="./assets/img/partner4.png" alt="" />
+          </div>
+          <div class="img-partner">
+            <img src="./assets/img/partner5.png" alt="" />
+          </div>
+          <div class="img-partner">
+            <img src="./assets/img/partner6.png" alt="" />
           </div>
         </div>
       </div>
     </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="logo">
+          <div class="img-logo">
+            <img src="./assets/img/icon-logo.svg" alt="iconlogo" />
+            <p>We<span>tick</span></p>
+          </div>
+
+          <div class="img-socmed">
+            <p>find event you love with our</p>
+            <div class="ic-container">
+              <img src="./assets/img/fb-ic.svg" alt="iconlogo" />
+              <img src="./assets/img/wa-ic.svg" alt="iconlogo" />
+              <img src="./assets/img/ig-ic.svg" alt="iconlogo" />
+              <img src="./assets/img/tt-ic.svg" alt="iconlogo" />
+            </div>
+          </div>
+
+          <p>&copy; 2020 Wetick All Rights Reserved</p>
+        </div>
+        <div class="about">
+          <p>Wetick</p>
+          <ul>
+            <li>About Us</li>
+            <li>Features</li>
+            <li>Blog</li>
+            <li>Payment</li>
+            <li>Mobile App</li>
+          </ul>
+        </div>
+        <div class="feature">
+          <p>Feature</p>
+          <ul>
+            <li>Booking</li>
+            <li>Create Event</li>
+            <li>Discover</li>
+            <li>Register</li>
+          </ul>
+        </div>
+        <div class="company">
+          <p>Company</p>
+          <ul>
+            <li>Partnership</li>
+            <li>Help</li>
+            <li>Term of Service</li>
+            <li>Privacy Policy</li>
+            <li>Sitemap</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
