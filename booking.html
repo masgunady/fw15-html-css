@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/payment.css" />
-    <title>Detail</title>
+    <link rel="stylesheet" href="./assets/css/booking.css" />
+    <title>Booking</title>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -44,109 +44,103 @@
         </div>
       </div>
     </nav>
-    <div class="main-payment">
+    <div class="main-booking">
       <section class="wrapped">
         <div class="left-section">
-          <div class="left-wrapped">
-            <div class="title">
-              <p>Payment Method</p>
-            </div>
-            <div class="payment-container">
-              <div class="payment-type">
-                <div class="rb-container">
-                  <input type="radio" name="" id="" />
-                </div>
-                <div class="ic-container">
-                  <img src="./assets/img/cc-ic.svg" alt="" />
-                </div>
-                <div class="type-of-payment">
-                  <p>Card</p>
-                </div>
-                <div class="exp-btn">
-                  <img id="one" src="./assets/img/exp-ic.svg" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="val-item-container">
-              <div class="display-item">
-                <img src="./assets/img/card-display.png" alt="" />
-              </div>
-              <div class="add-item">
-                <img src="./assets/img/add-item-payment.svg" alt="" />
-              </div>
-            </div>
-            <div class="payment-container">
-              <div class="payment-type">
-                <div class="rb-container">
-                  <input type="radio" name="" id="" />
-                </div>
-                <div class="ic-container">
-                  <img src="./assets/img/bank-ic.svg" alt="" />
-                </div>
-                <div class="type-of-payment">
-                  <p>Bank Transfer</p>
-                </div>
-                <div class="exp-btn">
-                  <img src="./assets/img/exp-ic.svg" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="payment-container">
-              <div class="payment-type">
-                <div class="rb-container">
-                  <input type="radio" name="" id="" />
-                </div>
-                <div class="ic-container">
-                  <img src="./assets/img/retail-ic.svg" alt="" />
-                </div>
-                <div class="type-of-payment">
-                  <p>Retail</p>
-                </div>
-                <div class="exp-btn">
-                  <img src="./assets/img/exp-ic.svg" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="payment-container">
-              <div class="payment-type">
-                <div class="rb-container">
-                  <input type="radio" name="" id="" />
-                </div>
-                <div class="ic-container">
-                  <img src="./assets/img/e-money-ic.svg" alt="" />
-                </div>
-                <div class="type-of-payment">
-                  <p>E-Money</p>
-                </div>
-                <div class="exp-btn">
-                  <img src="./assets/img/exp-ic.svg" alt="" />
-                </div>
-              </div>
-            </div>
+          <div class="img-chart">
+            <img src="./assets/img/chart_vector.png" alt="" />
+            <!-- <div class="img-dissolve"></div> -->
           </div>
         </div>
         <div class="right-section">
           <div class="right-wrapped">
-            <div class="title">
-              <p>Ticket Detail</p>
+            <div class="title-chart">
+              <p>Tickets</p>
+              <div class="short-item">
+                <p>By Price</p>
+                <img src="./assets/img/sort-ic.svg" alt="" />
+              </div>
             </div>
-            <div class="item-detail">
-              <div class="desc">
-                <p>Event</p>
+            <div class="item-chart">
+              <div class="item-container">
+                <div class="img-item">
+                  <img src="./assets/img/item1-ic.svg" alt="" />
+                </div>
+                <div class="desc-item">
+                  <p class="title">Section Reg, row 1</p>
+                  <p class="sub-title">12 Seats available</p>
+                  <p class="quantity">Quantity</p>
+                </div>
+                <div class="price-item">
+                  <p class="title">$15</p>
+                  <p class="sub-title">per person</p>
+                  <div class="item-total">
+                    <img src="./assets/img/minus-ic.svg" alt="" />
+                    <p>0</p>
+                    <img src="./assets/img/plus-ic.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-chart">
+              <div class="item-container">
+                <div class="img-item">
+                  <img src="./assets/img/item2-ic.svg" alt="" />
+                </div>
+                <div class="desc-item">
+                  <p class="title">Section vip, row 2</p>
+                  <p class="sub-title">9 Seats available</p>
+                  <p class="quantity">Quantity</p>
+                </div>
+                <div class="price-item">
+                  <p class="title">$35</p>
+                  <p class="sub-title">per person</p>
+                  <div class="item-total">
+                    <img src="./assets/img/minus-ic.svg" alt="" />
+                    <p>2</p>
+                    <img src="./assets/img/plus-ic.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item-chart">
+              <div class="item-container">
+                <div class="img-item">
+                  <img src="./assets/img/item3-ic.svg" alt="" />
+                </div>
+                <div class="desc-item">
+                  <p class="title">Section vvip, row 3</p>
+                  <p class="sub-title">6 Seats available</p>
+                  <p class="quantity">Quantity</p>
+                </div>
+                <div class="price-item">
+                  <p class="title">$50</p>
+                  <p class="sub-title">per person</p>
+                  <div class="item-total">
+                    <img src="./assets/img/minus-ic.svg" alt="" />
+                    <p>0</p>
+                    <img src="./assets/img/plus-ic.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div class="total-chart">
+              <div class="title">
                 <p>Ticket Section</p>
                 <p>Quantity</p>
                 <p>Total Payment</p>
               </div>
-
-              <div class="item">
-                <p>Sight & Sound Exhibition</p>
+              <div class="desc">
                 <p>VIP</p>
                 <p>2</p>
                 <p>$70</p>
               </div>
             </div>
             <div class="btn-container">
-              <button>Payment</button>
+              <a href="./payment.html">
+                <button>Checkout</button>
+              </a>
             </div>
           </div>
         </div>
