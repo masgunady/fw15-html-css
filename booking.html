@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/booking.css" />
+    <link rel="stylesheet" href="./assets/css/styling.css" />
     <title>Booking</title>
     <script src="https://unpkg.com/feather-icons"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
+  <body class="bg-[#F4F7FF]">
     <nav class="flex justify-between items-center w-[100%] h-24 px-9 lg:px-14 bg-white">
       <div class="flex justify-start items-center gap-2 lg:gap-3.5">
         <div>
@@ -44,109 +44,105 @@
         </div>
       </div>
     </nav>
-    <div class="main-booking">
-      <section class="wrapped">
-        <div class="left-section">
-          <div class="img-chart">
-            <img src="./assets/img/chart_vector.png" alt="" />
-            <!-- <div class="img-dissolve"></div> -->
+    <main class="flex justify-center md:mt-12">
+      <div class="container flex flex-col md:flex-row justify-between items-center gap-11 md:items-start bg-white px-7 lg:px-24 py-24 lg:rounded-3xl">
+        <div class="w-full h-full flex-1">
+          <div class="flex items-center justify-center w-full h-[75%]">
+            <img class="w-[90%] lg:w-[80%] md:rotate-[-45deg]" src="./assets/img/booking-img-art.png" alt="" />
           </div>
         </div>
-        <div class="right-section">
-          <div class="right-wrapped">
-            <div class="title-chart">
-              <p>Tickets</p>
-              <div class="short-item">
-                <p>By Price</p>
-                <img src="./assets/img/sort-ic.svg" alt="" />
-              </div>
-            </div>
-            <div class="item-chart">
-              <div class="item-container">
-                <div class="img-item">
-                  <img src="./assets/img/item1-ic.svg" alt="" />
-                </div>
-                <div class="desc-item">
-                  <p class="title">Section Reg, row 1</p>
-                  <p class="sub-title">12 Seats available</p>
-                  <p class="quantity">Quantity</p>
-                </div>
-                <div class="price-item">
-                  <p class="title">$15</p>
-                  <p class="sub-title">per person</p>
-                  <div class="item-total">
-                    <img src="./assets/img/minus-ic.svg" alt="" />
-                    <p>0</p>
-                    <img src="./assets/img/plus-ic.svg" alt="" />
-                  </div>
+        <div class="mt-11 md:mt-0 flex flex-col flex-1 gap-7 w-full">
+          <div class="flex flex-col justify-start gap-12 w-full">
+            <div class="flex items-center justify-between">
+              <div class="text-[20px] text-[373a42] font-semibold tracking-[1px] capitalize">tickets</div>
+              <div class="flex items-center justify-end gap-3">
+                <div class="text-xs text-[red] font-semibold tracking-[1px] uppercase">By Price</div>
+                <div>
+                  <img src="./assets/img/sort-ic.svg" alt="" />
                 </div>
               </div>
             </div>
-            <div class="item-chart">
-              <div class="item-container">
-                <div class="img-item">
-                  <img src="./assets/img/item2-ic.svg" alt="" />
-                </div>
-                <div class="desc-item">
-                  <p class="title">Section vip, row 2</p>
-                  <p class="sub-title">9 Seats available</p>
-                  <p class="quantity">Quantity</p>
-                </div>
-                <div class="price-item">
-                  <p class="title">$35</p>
-                  <p class="sub-title">per person</p>
-                  <div class="item-total">
-                    <img src="./assets/img/minus-ic.svg" alt="" />
-                    <p>2</p>
-                    <img src="./assets/img/plus-ic.svg" alt="" />
-                  </div>
+            <div class="flex item-star justify-between gap-5">
+              <div class="w-16">
+                <img class="w-full" src="./assets/img/item1-ic.svg" alt="" />
+              </div>
+              <div class="flex flex-col gap-1 w-full">
+                <div class="text-sm text-[#373a42] font-semibold tracking-[0.5px] uppercase">Section reg, Row 1</div>
+                <div class="text-xs text-[#bdc0c4] font-medium capitalize">12 Seats available</div>
+                <div class="text-xs text-[#373a42] font-semibold tracking-[1px] capitalize mt-2">Quantity</div>
+              </div>
+              <div class="w-[40%] flex flex-col items-end gap-1">
+                <div class="self-center text-base text-[#373a42] font-semibold tracking-[1px]">$15</div>
+                <div class="self-center text-xs text-[#bdc0c4] font-medium tracking-[0.5px]">per person</div>
+                <div class="w-full flex items-center justify-between gap-2">
+                  <div class="border-2 rounded-md w-[33px] h-[30px] flex items-center justify-center"><img src="./assets/img/minus-ic.svg" alt="" /></div>
+                  <div class="text-xs text-[#373a42] font-semibold tracking-[1px] capitalize mt-2">0</div>
+                  <div class="border-2 rounded-md w-[33px] h-[30px] flex items-center justify-center"><img src="./assets/img/plus-ic.svg" alt="" /></div>
                 </div>
               </div>
             </div>
-            <div class="item-chart">
-              <div class="item-container">
-                <div class="img-item">
-                  <img src="./assets/img/item3-ic.svg" alt="" />
-                </div>
-                <div class="desc-item">
-                  <p class="title">Section vvip, row 3</p>
-                  <p class="sub-title">6 Seats available</p>
-                  <p class="quantity">Quantity</p>
-                </div>
-                <div class="price-item">
-                  <p class="title">$50</p>
-                  <p class="sub-title">per person</p>
-                  <div class="item-total">
-                    <img src="./assets/img/minus-ic.svg" alt="" />
-                    <p>0</p>
-                    <img src="./assets/img/plus-ic.svg" alt="" />
-                  </div>
+            <div class="flex item-star justify-between gap-5">
+              <div class="w-16">
+                <img class="w-full" src="./assets/img/item2-ic.svg" alt="" />
+              </div>
+              <div class="flex flex-col gap-1 w-full">
+                <div class="text-sm text-[#373a42] font-semibold tracking-[0.5px] uppercase">Section reg, Row 1</div>
+                <div class="text-xs text-[#bdc0c4] font-medium capitalize">12 Seats available</div>
+                <div class="text-xs text-[#373a42] font-semibold tracking-[1px] capitalize mt-2">Quantity</div>
+              </div>
+              <div class="w-[40%] flex flex-col items-end gap-1">
+                <div class="self-center text-base text-[#373a42] font-semibold tracking-[1px]">$15</div>
+                <div class="self-center text-xs text-[#bdc0c4] font-medium tracking-[0.5px]">per person</div>
+                <div class="w-full flex items-center justify-between gap-2">
+                  <div class="border-2 rounded-md w-[33px] h-[30px] flex items-center justify-center"><img src="./assets/img/minus-ic.svg" alt="" /></div>
+                  <div class="text-xs text-[#373a42] font-semibold tracking-[1px] capitalize mt-2">0</div>
+                  <div class="border-2 rounded-md w-[33px] h-[30px] flex items-center justify-center"><img src="./assets/img/plus-ic.svg" alt="" /></div>
                 </div>
               </div>
             </div>
-            <hr />
-            <div class="total-chart">
-              <div class="title">
-                <p>Ticket Section</p>
-                <p>Quantity</p>
-                <p>Total Payment</p>
+            <div class="flex item-star justify-between gap-5">
+              <div class="w-16">
+                <img class="w-full" src="./assets/img/item3-ic.svg" alt="" />
               </div>
-              <div class="desc">
-                <p>VIP</p>
-                <p>2</p>
-                <p>$70</p>
+              <div class="flex flex-col gap-1 w-full">
+                <div class="text-sm text-[#373a42] font-semibold tracking-[0.5px] uppercase">Section reg, Row 1</div>
+                <div class="text-xs text-[#bdc0c4] font-medium capitalize">12 Seats available</div>
+                <div class="text-xs text-[#373a42] font-semibold tracking-[1px] capitalize mt-2">Quantity</div>
+              </div>
+              <div class="w-[40%] flex flex-col items-end gap-1">
+                <div class="self-center text-base text-[#373a42] font-semibold tracking-[1px]">$15</div>
+                <div class="self-center text-xs text-[#bdc0c4] font-medium tracking-[0.5px]">per person</div>
+                <div class="w-full flex items-center justify-between gap-2">
+                  <div class="border-2 rounded-md w-[33px] h-[30px] flex items-center justify-center"><img src="./assets/img/minus-ic.svg" alt="" /></div>
+                  <div class="text-xs text-[#373a42] font-semibold tracking-[1px] capitalize mt-2">0</div>
+                  <div class="border-2 rounded-md w-[33px] h-[30px] flex items-center justify-center"><img src="./assets/img/plus-ic.svg" alt="" /></div>
+                </div>
               </div>
             </div>
-            <div class="btn-container">
-              <a href="./payment.html">
-                <button>Checkout</button>
-              </a>
+            <div class="pt-4 border-t-2 flex flex-col gap-3.5">
+              <div class="flex items-center justify-between">
+                <div class="text-sm text-[#373a42] font-semibold tracking-[0.5px]">Ticket Section</div>
+                <div class="text-sm text-[#4c3f91] font-semibold tracking-[0.5px]">VIP</div>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="text-sm text-[#373a42] font-semibold tracking-[0.5px]">Quantity</div>
+                <div class="text-sm text-[#4c3f91] font-semibold tracking-[0.5px]">2</div>
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="text-sm text-[#373a42] font-semibold tracking-[0.5px]">Total Payment</div>
+                <div class="text-sm text-[#4c3f91] font-semibold tracking-[0.5px]">$70</div>
+              </div>
+            </div>
+          </div>
+          <div class="w-full mt-11">
+            <div class="flex items-center justify-center bg-[#4c3f91] w-full md:w-[315px] h-[55px] rounded-2xl text-white text-base font-semibold tracking-[1px]">
+              <a class="h-full w-full flex items-center justify-center" href="./payment.html">Checkout</a>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <footer class="md:bg-[#F4F7FF] w-[100%] flex flex-col items-start md:items-center justify-start md:justify-center px-9 md:px-11 xl:px-60 2xl:px-80">
+      </div>
+    </main>
+    <footer class="bg-white md:bg-[#F4F7FF] w-[100%] flex flex-col items-start md:items-center justify-start md:justify-center px-9 md:px-11 xl:px-60 2xl:px-80">
       <div class="w-[100%] flex flex-col md:flex-row justify-center md:justify-between gap-8 lg:gap-32 pt-11 mb-7">
         <div>
           <div class="flex justify-start items-center w-auto md:w-48 gap-3.5">

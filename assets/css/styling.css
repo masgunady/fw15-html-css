@@ -17,6 +17,13 @@ body {
   height: 350px;
 }
 
+.event-detail-dissolve-effect {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 5%, #000000 95%);
+}
+
+.payment-scrolling-card::-webkit-scrollbar {
+  width: 1px;
+}
 /* =============== INDEX ================== */
 /* Content Index */
 .main-index .header-container {
